@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Quick Search - Spotlight",
   "version": "1.0.0",
-  "description": "Spotlight-style fuzzy search for tabs, bookmarks, and history. Press Ctrl+Shift+K to open.",
+  "description": "Spotlight-style fuzzy search for tabs, bookmarks, and history. Press Ctrl+Shift+F to open.",
   "permissions": ["tabs", "bookmarks", "history", "activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
