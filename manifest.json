@@ -18,8 +18,8 @@
   "commands": {
     "toggle-spotlight": {
       "suggested_key": {
-        "default": "Ctrl+Shift+K",
-        "mac": "Command+Shift+K"
+        "default": "Ctrl+Shift+F",
+        "mac": "Command+Shift+F"
       },
       "description": "Toggle Spotlight Search"
     }
