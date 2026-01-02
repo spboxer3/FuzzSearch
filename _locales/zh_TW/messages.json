@@ -1,10 +1,10 @@
 {
   "extName": {
-    "message": "Quick Search - Spotlight",
+    "message": "FuzzSearch - 全方位分頁、書籤與頁面搜尋",
     "description": "Extension name"
   },
   "extDescription": {
-    "message": "Spotlight 風格的模糊搜尋，支援分頁、書籤和歷史記錄。按 Ctrl+Shift+K 開啟。",
+    "message": "Spotlight 風格的模糊搜尋，支援分頁、書籤和歷史記錄。按 Ctrl+Shift+F 開啟。",
     "description": "Extension description"
   },
   "searchPlaceholder": {
@@ -80,7 +80,7 @@
     "description": "History description"
   },
   "settingsTitle": {
-    "message": "Quick Search 設定",
+    "message": "FuzzSearch 設定",
     "description": "Settings page title"
   },
   "settingsSubtitle": {

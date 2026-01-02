@@ -1,5 +1,5 @@
 /**
- * Quick Search - Chrome Extension
+ * FuzzSearch - Chrome Extension
  * Command Palette style fuzzy search for tabs, bookmarks, and history
  */
 

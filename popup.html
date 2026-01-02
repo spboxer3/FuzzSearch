@@ -1,60 +1,57 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quick Search</title>
-  <link rel="stylesheet" href="popup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FuzzSearch</title>
+    <link rel="stylesheet" href="popup.css">
 </head>
+
 <body>
-  <!-- Header: Search Input -->
-  <header class="search-header">
-    <div class="search-icon">🔍</div>
-    <input 
-      type="text" 
-      id="searchInput" 
-      class="search-input" 
-      placeholder="Search tabs, bookmarks, history..."
-      autocomplete="off"
-      spellcheck="false"
-    >
-    <button id="clearBtn" class="clear-btn" title="Clear (Esc)">×</button>
-  </header>
+    <!-- Header: Search Input -->
+    <header class="search-header">
+        <div class="search-icon">🔍</div>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search tabs, bookmarks, history..."
+            autocomplete="off" spellcheck="false">
+        <button id="clearBtn" class="clear-btn" title="Clear (Esc)">×</button>
+    </header>
 
-  <!-- Body: Results List -->
-  <main class="results-container" id="resultsContainer">
-    <!-- Empty State -->
-    <div id="emptyState" class="empty-state">
-      <div class="empty-state-title">⚡ Quick Start</div>
-      <div class="empty-state-hint">Type to search your browser</div>
-      <div class="recent-section" id="recentSection">
-        <div class="section-title">Recently Visited</div>
-        <ul class="recent-list" id="recentList"></ul>
-      </div>
-    </div>
+    <!-- Body: Results List -->
+    <main class="results-container" id="resultsContainer">
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state">
+            <div class="empty-state-title">⚡ Quick Start</div>
+            <div class="empty-state-hint">Type to search your browser</div>
+            <div class="recent-section" id="recentSection">
+                <div class="section-title">Recently Visited</div>
+                <ul class="recent-list" id="recentList"></ul>
+            </div>
+        </div>
 
-    <!-- No Results State -->
-    <div id="noResults" class="no-results hidden">
-      <div class="no-results-icon">🔎</div>
-      <div class="no-results-text">No matches found</div>
-      <a id="googleSearchLink" class="google-search-link" target="_blank">
-        Search Google for "<span id="googleSearchQuery"></span>"
-      </a>
-    </div>
+        <!-- No Results State -->
+        <div id="noResults" class="no-results hidden">
+            <div class="no-results-icon">🔎</div>
+            <div class="no-results-text">No matches found</div>
+            <a id="googleSearchLink" class="google-search-link" target="_blank">
+                Search Google for "<span id="googleSearchQuery"></span>"
+            </a>
+        </div>
 
-    <!-- Results List -->
-    <ul id="resultsList" class="results-list hidden"></ul>
-  </main>
+        <!-- Results List -->
+        <ul id="resultsList" class="results-list hidden"></ul>
+    </main>
 
-  <!-- Footer: Keyboard Hints -->
-  <footer class="keyboard-hints">
-    <span class="hint"><kbd>↑↓</kbd> Navigate</span>
-    <span class="hint"><kbd>Enter</kbd> Open</span>
-    <span class="hint"><kbd>Ctrl+C</kbd> Copy URL</span>
-    <span class="hint"><kbd>Esc</kbd> Clear</span>
-  </footer>
+    <!-- Footer: Keyboard Hints -->
+    <footer class="keyboard-hints">
+        <span class="hint"><kbd>↑↓</kbd> Navigate</span>
+        <span class="hint"><kbd>Enter</kbd> Open</span>
+        <span class="hint"><kbd>Ctrl+C</kbd> Copy URL</span>
+        <span class="hint"><kbd>Esc</kbd> Clear</span>
+    </footer>
 
-  <script src="lib/fuse.min.js"></script>
-  <script src="popup.js"></script>
+    <script src="lib/fuse.min.js"></script>
+    <script src="popup.js"></script>
 </body>
+
 </html>

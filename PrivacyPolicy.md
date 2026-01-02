@@ -1,12 +1,12 @@
 # Privacy Policy
 
-**Quick Search - Spotlight** Chrome Extension
+**FuzzSearch** Chrome Extension
 
 _Last Updated: January 2, 2026_
 
 ## Overview
 
-Quick Search - Spotlight is a browser extension that provides fast, local search functionality. We are committed to protecting your privacy.
+FuzzSearch is a browser extension that provides fast, local search functionality. We are committed to protecting your privacy.
 
 ## Data Collection
 

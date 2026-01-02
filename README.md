@@ -1,4 +1,4 @@
-# Quick Search - Spotlight
+# FuzzSearch
 
 A macOS Spotlight-style Chrome extension for lightning-fast fuzzy search across tabs, bookmarks, history, and current page content.
 

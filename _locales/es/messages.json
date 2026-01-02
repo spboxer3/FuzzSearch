@@ -1,10 +1,10 @@
 {
   "extName": {
-    "message": "Quick Search - Spotlight",
+    "message": "FuzzSearch - Búsqueda todo en uno (pestañas, marcadores y contenido)",
     "description": "Extension name"
   },
   "extDescription": {
-    "message": "Búsqueda difusa estilo Spotlight para pestañas, marcadores e historial. Presiona Ctrl+Shift+K para abrir.",
+    "message": "Búsqueda difusa estilo Spotlight para pestañas, marcadores e historial. Presiona Ctrl+Shift+F para abrir.",
     "description": "Extension description"
   },
   "searchPlaceholder": {
@@ -80,7 +80,7 @@
     "description": "History description"
   },
   "settingsTitle": {
-    "message": "Configuración de Quick Search",
+    "message": "Configuración de FuzzSearch",
     "description": "Settings page title"
   },
   "settingsSubtitle": {

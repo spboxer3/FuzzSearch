@@ -1,10 +1,10 @@
 {
   "extName": {
-    "message": "Quick Search - Spotlight",
+    "message": "FuzzSearch - All-in-One Search for Tabs, Bookmarks & Page Content",
     "description": "Extension name"
   },
   "extDescription": {
-    "message": "Spotlight-style fuzzy search for tabs, bookmarks, and history. Press Ctrl+Shift+K to open.",
+    "message": "Fuzzy search for tabs, bookmarks, and page content. Press Ctrl+Shift+F to open.",
     "description": "Extension description"
   },
   "searchPlaceholder": {
@@ -80,7 +80,7 @@
     "description": "History description"
   },
   "settingsTitle": {
-    "message": "Quick Search Settings",
+    "message": "FuzzSearch Settings",
     "description": "Settings page title"
   },
   "settingsSubtitle": {

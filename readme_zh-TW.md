@@ -1,4 +1,4 @@
-# Quick Search - Spotlight
+# FuzzSearch
 
 macOS Spotlight 風格的 Chrome 擴充功能，支援分頁、書籤、歷史記錄和當前頁面內容的模糊搜尋。
 

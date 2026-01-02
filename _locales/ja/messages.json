@@ -1,10 +1,10 @@
 {
   "extName": {
-    "message": "Quick Search - Spotlight",
+    "message": "FuzzSearch - 統合ブラウザ検索 (タブ・ブックマーク・ページ内容)",
     "description": "Extension name"
   },
   "extDescription": {
-    "message": "Spotlight風のあいまい検索。タブ、ブックマーク、履歴を検索。Ctrl+Shift+Kで開く。",
+    "message": "Spotlight風のあいまい検索。タブ、ブックマーク、履歴を検索。Ctrl+Shift+Fで開く。",
     "description": "Extension description"
   },
   "searchPlaceholder": {
@@ -80,7 +80,7 @@
     "description": "History description"
   },
   "settingsTitle": {
-    "message": "Quick Search 設定",
+    "message": "FuzzSearch 設定",
     "description": "Settings page title"
   },
   "settingsSubtitle": {
