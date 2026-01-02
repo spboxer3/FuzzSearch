@@ -78,6 +78,7 @@
           tagButton: chrome.i18n.getMessage("tagButton"),
           tagText: chrome.i18n.getMessage("tagText"),
           searchMinLength: chrome.i18n.getMessage("searchMinLength"),
+          tagHidden: chrome.i18n.getMessage("tagHidden"),
         };
       }
 
@@ -114,6 +115,7 @@
         tagButton: msg("tagButton"),
         tagText: msg("tagText"),
         searchMinLength: msg("searchMinLength"),
+        tagHidden: msg("tagHidden"),
       };
     } catch (e) {
       return {
@@ -137,6 +139,7 @@
         tagButton: chrome.i18n.getMessage("tagButton"),
         tagText: chrome.i18n.getMessage("tagText"),
         searchMinLength: chrome.i18n.getMessage("searchMinLength"),
+        tagHidden: chrome.i18n.getMessage("tagHidden"),
       };
     }
   }
@@ -290,6 +293,7 @@
           link.getAttribute("aria-label");
         if (!title || title.length < 2 || title.length > 200) return;
 
+        const hidden = !isVisible(link);
         const textKey = title.toLowerCase().slice(0, 50);
         if (seenTexts.has(textKey)) return;
         seenTexts.add(textKey);
@@ -303,6 +307,7 @@
           icon: "🔗",
           isCurrentSite: true,
           element: link,
+          isHidden: hidden,
         });
       } catch (e) {
         // Ignore invalid URLs
@@ -811,6 +816,10 @@
             ? `<span class="qs-site-badge">${currentI18n.thisSite}</span>`
             : "";
 
+        const hiddenBadge = item.isHidden
+          ? `<span class="qs-hidden-tag">${currentI18n.tagHidden}</span>`
+          : "";
+
         // Determine tag
         let tagClass = "qs-tag-page";
         let tagLabel = currentI18n.tagPage || "Page";
@@ -844,11 +853,11 @@
        <li class="qs-result-item ${
          index === selectedIndex ? "qs-active" : ""
        } ${
-          item.url === window.location.href ? "qs-current-site" : ""
+          item.type === "page" ? "qs-current-site" : ""
         }" data-index="${index}">
          <span class="qs-type-tag ${tagClass}">${tagLabel}</span>
          <div class="qs-result-content">
-          <div class="qs-result-title">${highlightedTitle}${siteBadge}</div>
+          <div class="qs-result-title">${highlightedTitle}${siteBadge}${hiddenBadge}</div>
           <div class="qs-result-url">${highlightedUrl}</div>
         </div>
       </li>
@@ -916,6 +925,15 @@
     } catch {
       return url.slice(0, 50) + (url.length > 50 ? "..." : "");
     }
+  }
+
+  function isVisible(el) {
+    if (!el) return false;
+    return !!(
+      el.offsetWidth ||
+      el.offsetHeight ||
+      (el.getClientRects && el.getClientRects().length)
+    );
   }
 
   // Initialize

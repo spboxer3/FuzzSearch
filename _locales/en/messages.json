@@ -135,5 +135,6 @@
   "tagHeader": { "message": "Heading" },
   "tagButton": { "message": "Button" },
   "tagText": { "message": "Text" },
-  "searchMinLength": { "message": "Type at least 2 characters" }
+  "searchMinLength": { "message": "Type at least 2 characters" },
+  "tagHidden": { "message": "Hidden" }
 }

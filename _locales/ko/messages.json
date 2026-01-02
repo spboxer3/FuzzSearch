@@ -135,5 +135,6 @@
   "tagHeader": { "message": "제목" },
   "tagButton": { "message": "버튼" },
   "tagText": { "message": "텍스트" },
-  "searchMinLength": { "message": "2자 이상 입력하세요" }
+  "searchMinLength": { "message": "2자 이상 입력하세요" },
+  "tagHidden": { "message": "숨김" }
 }

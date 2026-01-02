@@ -135,5 +135,6 @@
   "tagHeader": { "message": "見出し" },
   "tagButton": { "message": "ボタン" },
   "tagText": { "message": "テキスト" },
-  "searchMinLength": { "message": "2文字以上入力してください" }
+  "searchMinLength": { "message": "2文字以上入力してください" },
+  "tagHidden": { "message": "非表示" }
 }

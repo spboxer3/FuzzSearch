@@ -18,12 +18,12 @@ All data accessed by this extension remains entirely on your local device.
 
 The extension accesses the following data **locally** to provide search functionality:
 
-| Data Type    | Purpose                  | Storage    |
-| ------------ | ------------------------ | ---------- |
-| Open Tabs    | Search and switch tabs   | Not stored |
-| Bookmarks    | Search bookmarks         | Not stored |
-| History      | Search recent visits     | Not stored |
-| Page Content | Search current page text | Not stored |
+| Data Type    | Purpose                       | Storage    |
+| ------------ | ----------------------------- | ---------- |
+| Open Tabs    | Search and switch tabs        | Not stored |
+| Bookmarks    | Search bookmarks              | Not stored |
+| History      | Search recent visits          | Not stored |
+| Page Content | Current text and hidden links | Not stored |
 
 ## Data Storage
 
