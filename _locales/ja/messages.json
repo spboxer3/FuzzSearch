@@ -1,0 +1,139 @@
+{
+  "extName": {
+    "message": "Quick Search - Spotlight",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Spotlight風のあいまい検索。タブ、ブックマーク、履歴を検索。Ctrl+Shift+Kで開く。",
+    "description": "Extension description"
+  },
+  "searchPlaceholder": {
+    "message": "このページ、タブ、ブックマークを検索...",
+    "description": "Search input placeholder"
+  },
+  "navigate": {
+    "message": "移動",
+    "description": "Keyboard hint for navigation"
+  },
+  "goTo": {
+    "message": "開く",
+    "description": "Keyboard hint for go to action"
+  },
+  "close": {
+    "message": "閉じる",
+    "description": "Keyboard hint for close"
+  },
+  "settings": {
+    "message": "設定",
+    "description": "Settings button tooltip"
+  },
+  "loading": {
+    "message": "読み込み中...",
+    "description": "Loading state text"
+  },
+  "typeToSearch": {
+    "message": "入力して検索",
+    "description": "Empty state title"
+  },
+  "searchHint": {
+    "message": "ページ • タブ • ブックマーク • 履歴",
+    "description": "Empty state hint"
+  },
+  "noResults": {
+    "message": "一致する結果がありません",
+    "description": "No results text"
+  },
+  "searchGoogle": {
+    "message": "Googleで検索",
+    "description": "Google search link prefix"
+  },
+  "currentPage": {
+    "message": "現在のページ",
+    "description": "Current page type label"
+  },
+  "currentPageDesc": {
+    "message": "現在のページのリンク、見出し、テキスト",
+    "description": "Current page description"
+  },
+  "openTabs": {
+    "message": "開いているタブ",
+    "description": "Open tabs type label"
+  },
+  "openTabsDesc": {
+    "message": "現在開いているブラウザのタブ",
+    "description": "Open tabs description"
+  },
+  "bookmarks": {
+    "message": "ブックマーク",
+    "description": "Bookmarks type label"
+  },
+  "bookmarksDesc": {
+    "message": "保存したブックマーク",
+    "description": "Bookmarks description"
+  },
+  "history": {
+    "message": "履歴",
+    "description": "History type label"
+  },
+  "historyDesc": {
+    "message": "最近アクセスしたページ",
+    "description": "History description"
+  },
+  "settingsTitle": {
+    "message": "Quick Search 設定",
+    "description": "Settings page title"
+  },
+  "settingsSubtitle": {
+    "message": "検索体験をカスタマイズ",
+    "description": "Settings page subtitle"
+  },
+  "searchPriority": {
+    "message": "検索の優先順位",
+    "description": "Priority section title"
+  },
+  "dragToReorder": {
+    "message": "ドラッグして並べ替え。上にある項目が検索結果で優先表示されます。",
+    "description": "Priority section description"
+  },
+  "save": {
+    "message": "設定を保存",
+    "description": "Save button text"
+  },
+  "reset": {
+    "message": "デフォルトに戻す",
+    "description": "Reset button text"
+  },
+  "settingsSaved": {
+    "message": "設定を保存しました！",
+    "description": "Save success toast"
+  },
+  "resetToDefault": {
+    "message": "デフォルトの順序に戻しました",
+    "description": "Reset success toast"
+  },
+  "thisSite": {
+    "message": "このサイト",
+    "description": "Badge for current site items"
+  },
+  "language": {
+    "message": "言語",
+    "description": "Language section title"
+  },
+  "languageDesc": {
+    "message": "表示言語を選択してください。",
+    "description": "Language section description"
+  },
+  "languageAuto": {
+    "message": "自動 (システム言語)",
+    "description": "Auto detect language option"
+  },
+  "tagPage": { "message": "ページ" },
+  "tagTab": { "message": "タブ" },
+  "tagBookmark": { "message": "ブックマーク" },
+  "tagHistory": { "message": "履歴" },
+  "tagLink": { "message": "リンク" },
+  "tagHeader": { "message": "見出し" },
+  "tagButton": { "message": "ボタン" },
+  "tagText": { "message": "テキスト" },
+  "searchMinLength": { "message": "2文字以上入力してください" }
+}

@@ -1,0 +1,139 @@
+{
+  "extName": {
+    "message": "Quick Search - Spotlight",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Spotlight 風格的模糊搜尋，支援分頁、書籤和歷史記錄。按 Ctrl+Shift+K 開啟。",
+    "description": "Extension description"
+  },
+  "searchPlaceholder": {
+    "message": "搜尋此頁面、分頁、書籤...",
+    "description": "Search input placeholder"
+  },
+  "navigate": {
+    "message": "導航",
+    "description": "Keyboard hint for navigation"
+  },
+  "goTo": {
+    "message": "前往",
+    "description": "Keyboard hint for go to action"
+  },
+  "close": {
+    "message": "關閉",
+    "description": "Keyboard hint for close"
+  },
+  "settings": {
+    "message": "設定",
+    "description": "Settings button tooltip"
+  },
+  "loading": {
+    "message": "載入中...",
+    "description": "Loading state text"
+  },
+  "typeToSearch": {
+    "message": "輸入以搜尋",
+    "description": "Empty state title"
+  },
+  "searchHint": {
+    "message": "頁面文字 • 分頁 • 書籤 • 歷史記錄",
+    "description": "Empty state hint"
+  },
+  "noResults": {
+    "message": "找不到符合的結果",
+    "description": "No results text"
+  },
+  "searchGoogle": {
+    "message": "在 Google 搜尋",
+    "description": "Google search link prefix"
+  },
+  "currentPage": {
+    "message": "當前頁面",
+    "description": "Current page type label"
+  },
+  "currentPageDesc": {
+    "message": "當前頁面的連結、標題和文字",
+    "description": "Current page description"
+  },
+  "openTabs": {
+    "message": "開啟的分頁",
+    "description": "Open tabs type label"
+  },
+  "openTabsDesc": {
+    "message": "目前開啟的瀏覽器分頁",
+    "description": "Open tabs description"
+  },
+  "bookmarks": {
+    "message": "書籤",
+    "description": "Bookmarks type label"
+  },
+  "bookmarksDesc": {
+    "message": "您儲存的書籤",
+    "description": "Bookmarks description"
+  },
+  "history": {
+    "message": "歷史記錄",
+    "description": "History type label"
+  },
+  "historyDesc": {
+    "message": "最近瀏覽的頁面",
+    "description": "History description"
+  },
+  "settingsTitle": {
+    "message": "Quick Search 設定",
+    "description": "Settings page title"
+  },
+  "settingsSubtitle": {
+    "message": "自訂您的搜尋體驗",
+    "description": "Settings page subtitle"
+  },
+  "searchPriority": {
+    "message": "搜尋優先順序",
+    "description": "Priority section title"
+  },
+  "dragToReorder": {
+    "message": "拖曳以重新排序。排在前面的項目會優先顯示在搜尋結果中。",
+    "description": "Priority section description"
+  },
+  "save": {
+    "message": "儲存設定",
+    "description": "Save button text"
+  },
+  "reset": {
+    "message": "重設為預設",
+    "description": "Reset button text"
+  },
+  "settingsSaved": {
+    "message": "設定已儲存！",
+    "description": "Save success toast"
+  },
+  "resetToDefault": {
+    "message": "已重設為預設順序",
+    "description": "Reset success toast"
+  },
+  "thisSite": {
+    "message": "此網站",
+    "description": "Badge for current site items"
+  },
+  "language": {
+    "message": "語言",
+    "description": "Language section title"
+  },
+  "languageDesc": {
+    "message": "選擇您喜好的顯示語言。",
+    "description": "Language section description"
+  },
+  "languageAuto": {
+    "message": "自動 (系統語言)",
+    "description": "Auto detect language option"
+  },
+  "tagPage": { "message": "頁面" },
+  "tagTab": { "message": "分頁" },
+  "tagBookmark": { "message": "書籤" },
+  "tagHistory": { "message": "歷史" },
+  "tagLink": { "message": "連結" },
+  "tagHeader": { "message": "標題" },
+  "tagButton": { "message": "按鈕" },
+  "tagText": { "message": "文字" },
+  "searchMinLength": { "message": "請輸入至少 2 個字元" }
+}

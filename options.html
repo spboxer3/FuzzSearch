@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="settingsTitle">Quick Search Settings</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <div class="settings-container">
+        <header class="settings-header">
+            <h1>⚡ <span data-i18n="settingsTitle">Quick Search Settings</span></h1>
+            <p class="subtitle" data-i18n="settingsSubtitle">Customize your search experience</p>
+        </header>
+
+        <main class="settings-main">
+            <!-- Language Section -->
+            <section class="settings-section">
+                <h2 data-i18n="language">Language</h2>
+                <p class="description" data-i18n="languageDesc">Select your preferred display language.</p>
+
+                <div class="language-selector">
+                    <select id="languageSelect" class="language-select">
+                        <option value="auto" data-i18n="languageAuto">Auto (System language)</option>
+                        <option value="en">English</option>
+                        <option value="zh_TW">繁體中文</option>
+                        <option value="ja">日本語</option>
+                        <option value="ko">한국어</option>
+                        <option value="es">Español</option>
+                    </select>
+                </div>
+            </section>
+
+            <hr class="section-divider">
+
+            <!-- Priority Section -->
+            <section class="settings-section">
+                <h2 data-i18n="searchPriority">Search Priority</h2>
+                <p class="description" data-i18n="dragToReorder">Drag to reorder. Items at the top appear first in
+                    search results.</p>
+
+                <ul class="priority-list" id="priorityList">
+                    <li class="priority-item" data-type="page" draggable="true">
+                        <span class="drag-handle">⋮⋮</span>
+                        <span class="item-icon">📄</span>
+                        <span class="item-label" data-i18n="currentPage">Current Page</span>
+                        <span class="item-desc" data-i18n="currentPageDesc">Links, headings, and text on current
+                            page</span>
+                    </li>
+                    <li class="priority-item" data-type="tab" draggable="true">
+                        <span class="drag-handle">⋮⋮</span>
+                        <span class="item-icon">📑</span>
+                        <span class="item-label" data-i18n="openTabs">Open Tabs</span>
+                        <span class="item-desc" data-i18n="openTabsDesc">Currently open browser tabs</span>
+                    </li>
+                    <li class="priority-item" data-type="bookmark" draggable="true">
+                        <span class="drag-handle">⋮⋮</span>
+                        <span class="item-icon">⭐</span>
+                        <span class="item-label" data-i18n="bookmarks">Bookmarks</span>
+                        <span class="item-desc" data-i18n="bookmarksDesc">Your saved bookmarks</span>
+                    </li>
+                    <li class="priority-item" data-type="history" draggable="true">
+                        <span class="drag-handle">⋮⋮</span>
+                        <span class="item-icon">📜</span>
+                        <span class="item-label" data-i18n="history">History</span>
+                        <span class="item-desc" data-i18n="historyDesc">Recently visited pages</span>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="settings-footer">
+            <button class="btn btn-secondary" id="resetBtn" data-i18n="reset">Reset to Default</button>
+            <button class="btn btn-primary" id="saveBtn" data-i18n="save">Save Settings</button>
+        </footer>
+
+        <div class="toast" id="toast"></div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

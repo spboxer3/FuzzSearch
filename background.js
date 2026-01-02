@@ -73,15 +73,27 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     return true;
   }
 
+  if (request.action === "open-options") {
+    chrome.runtime.openOptionsPage();
+    sendResponse({ success: true });
+    return true;
+  }
+
   if (request.action === "switch-to-tab") {
-    chrome.tabs.update(request.tabId, { active: true });
-    chrome.windows.update(request.windowId, { focused: true });
+    chrome.tabs.update(request.tabId, { active: true }).catch((e) => {
+      console.error("Failed to update tab:", e);
+    });
+    chrome.windows.update(request.windowId, { focused: true }).catch((e) => {
+      console.error("Failed to update window:", e);
+    });
     sendResponse({ success: true });
     return true;
   }
 
   if (request.action === "open-url") {
-    chrome.tabs.create({ url: request.url });
+    chrome.tabs.create({ url: request.url, active: true }).catch((e) => {
+      console.error("Failed to open url:", e);
+    });
     sendResponse({ success: true });
     return true;
   }

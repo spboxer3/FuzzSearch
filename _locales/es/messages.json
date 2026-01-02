@@ -1,0 +1,139 @@
+{
+  "extName": {
+    "message": "Quick Search - Spotlight",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Búsqueda difusa estilo Spotlight para pestañas, marcadores e historial. Presiona Ctrl+Shift+K para abrir.",
+    "description": "Extension description"
+  },
+  "searchPlaceholder": {
+    "message": "Buscar en esta página, pestañas, marcadores...",
+    "description": "Search input placeholder"
+  },
+  "navigate": {
+    "message": "Navegar",
+    "description": "Keyboard hint for navigation"
+  },
+  "goTo": {
+    "message": "Ir a",
+    "description": "Keyboard hint for go to action"
+  },
+  "close": {
+    "message": "Cerrar",
+    "description": "Keyboard hint for close"
+  },
+  "settings": {
+    "message": "Configuración",
+    "description": "Settings button tooltip"
+  },
+  "loading": {
+    "message": "Cargando...",
+    "description": "Loading state text"
+  },
+  "typeToSearch": {
+    "message": "Escribe para buscar",
+    "description": "Empty state title"
+  },
+  "searchHint": {
+    "message": "Página • Pestañas • Marcadores • Historial",
+    "description": "Empty state hint"
+  },
+  "noResults": {
+    "message": "No se encontraron coincidencias",
+    "description": "No results text"
+  },
+  "searchGoogle": {
+    "message": "Buscar en Google",
+    "description": "Google search link prefix"
+  },
+  "currentPage": {
+    "message": "Página actual",
+    "description": "Current page type label"
+  },
+  "currentPageDesc": {
+    "message": "Enlaces, encabezados y texto en la página actual",
+    "description": "Current page description"
+  },
+  "openTabs": {
+    "message": "Pestañas abiertas",
+    "description": "Open tabs type label"
+  },
+  "openTabsDesc": {
+    "message": "Pestañas del navegador actualmente abiertas",
+    "description": "Open tabs description"
+  },
+  "bookmarks": {
+    "message": "Marcadores",
+    "description": "Bookmarks type label"
+  },
+  "bookmarksDesc": {
+    "message": "Tus marcadores guardados",
+    "description": "Bookmarks description"
+  },
+  "history": {
+    "message": "Historial",
+    "description": "History type label"
+  },
+  "historyDesc": {
+    "message": "Páginas visitadas recientemente",
+    "description": "History description"
+  },
+  "settingsTitle": {
+    "message": "Configuración de Quick Search",
+    "description": "Settings page title"
+  },
+  "settingsSubtitle": {
+    "message": "Personaliza tu experiencia de búsqueda",
+    "description": "Settings page subtitle"
+  },
+  "searchPriority": {
+    "message": "Prioridad de búsqueda",
+    "description": "Priority section title"
+  },
+  "dragToReorder": {
+    "message": "Arrastra para reordenar. Los elementos de arriba aparecen primero en los resultados.",
+    "description": "Priority section description"
+  },
+  "save": {
+    "message": "Guardar configuración",
+    "description": "Save button text"
+  },
+  "reset": {
+    "message": "Restablecer valores predeterminados",
+    "description": "Reset button text"
+  },
+  "settingsSaved": {
+    "message": "¡Configuración guardada!",
+    "description": "Save success toast"
+  },
+  "resetToDefault": {
+    "message": "Orden predeterminado restaurado",
+    "description": "Reset success toast"
+  },
+  "thisSite": {
+    "message": "Este sitio",
+    "description": "Badge for current site items"
+  },
+  "language": {
+    "message": "Idioma",
+    "description": "Language section title"
+  },
+  "languageDesc": {
+    "message": "Selecciona tu idioma de visualización preferido.",
+    "description": "Language section description"
+  },
+  "languageAuto": {
+    "message": "Automático (idioma del sistema)",
+    "description": "Auto detect language option"
+  },
+  "tagPage": { "message": "Página" },
+  "tagTab": { "message": "Pestaña" },
+  "tagBookmark": { "message": "Marcador" },
+  "tagHistory": { "message": "Historial" },
+  "tagLink": { "message": "Enlace" },
+  "tagHeader": { "message": "Título" },
+  "tagButton": { "message": "Botón" },
+  "tagText": { "message": "Texto" },
+  "searchMinLength": { "message": "Escribe al menos 2 caracteres" }
+}

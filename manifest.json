@@ -1,9 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Quick Search - Spotlight",
+  "name": "__MSG_extName__",
   "version": "1.0.0",
-  "description": "Spotlight-style fuzzy search for tabs, bookmarks, and history. Press Ctrl+Shift+F to open.",
-  "permissions": ["tabs", "bookmarks", "history", "activeTab", "scripting"],
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "permissions": [
+    "tabs",
+    "bookmarks",
+    "history",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
   },
@@ -36,5 +45,11 @@
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["_locales/*/messages.json", "icons/*.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }

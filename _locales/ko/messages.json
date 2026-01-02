@@ -1,0 +1,139 @@
+{
+  "extName": {
+    "message": "Quick Search - Spotlight",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Spotlight 스타일의 퍼지 검색. 탭, 북마크, 기록을 검색합니다. Ctrl+Shift+K로 열기.",
+    "description": "Extension description"
+  },
+  "searchPlaceholder": {
+    "message": "이 페이지, 탭, 북마크 검색...",
+    "description": "Search input placeholder"
+  },
+  "navigate": {
+    "message": "이동",
+    "description": "Keyboard hint for navigation"
+  },
+  "goTo": {
+    "message": "열기",
+    "description": "Keyboard hint for go to action"
+  },
+  "close": {
+    "message": "닫기",
+    "description": "Keyboard hint for close"
+  },
+  "settings": {
+    "message": "설정",
+    "description": "Settings button tooltip"
+  },
+  "loading": {
+    "message": "로딩 중...",
+    "description": "Loading state text"
+  },
+  "typeToSearch": {
+    "message": "검색어 입력",
+    "description": "Empty state title"
+  },
+  "searchHint": {
+    "message": "페이지 • 탭 • 북마크 • 기록",
+    "description": "Empty state hint"
+  },
+  "noResults": {
+    "message": "일치하는 결과 없음",
+    "description": "No results text"
+  },
+  "searchGoogle": {
+    "message": "Google에서 검색",
+    "description": "Google search link prefix"
+  },
+  "currentPage": {
+    "message": "현재 페이지",
+    "description": "Current page type label"
+  },
+  "currentPageDesc": {
+    "message": "현재 페이지의 링크, 제목 및 텍스트",
+    "description": "Current page description"
+  },
+  "openTabs": {
+    "message": "열린 탭",
+    "description": "Open tabs type label"
+  },
+  "openTabsDesc": {
+    "message": "현재 열려 있는 브라우저 탭",
+    "description": "Open tabs description"
+  },
+  "bookmarks": {
+    "message": "북마크",
+    "description": "Bookmarks type label"
+  },
+  "bookmarksDesc": {
+    "message": "저장된 북마크",
+    "description": "Bookmarks description"
+  },
+  "history": {
+    "message": "기록",
+    "description": "History type label"
+  },
+  "historyDesc": {
+    "message": "최근 방문한 페이지",
+    "description": "History description"
+  },
+  "settingsTitle": {
+    "message": "Quick Search 설정",
+    "description": "Settings page title"
+  },
+  "settingsSubtitle": {
+    "message": "검색 경험 맞춤 설정",
+    "description": "Settings page subtitle"
+  },
+  "searchPriority": {
+    "message": "검색 우선순위",
+    "description": "Priority section title"
+  },
+  "dragToReorder": {
+    "message": "드래그하여 순서 변경. 위에 있는 항목이 검색 결과에서 먼저 표시됩니다.",
+    "description": "Priority section description"
+  },
+  "save": {
+    "message": "설정 저장",
+    "description": "Save button text"
+  },
+  "reset": {
+    "message": "기본값으로 재설정",
+    "description": "Reset button text"
+  },
+  "settingsSaved": {
+    "message": "설정이 저장되었습니다!",
+    "description": "Save success toast"
+  },
+  "resetToDefault": {
+    "message": "기본 순서로 재설정됨",
+    "description": "Reset success toast"
+  },
+  "thisSite": {
+    "message": "이 사이트",
+    "description": "Badge for current site items"
+  },
+  "language": {
+    "message": "언어",
+    "description": "Language section title"
+  },
+  "languageDesc": {
+    "message": "원하는 표시 언어를 선택하세요.",
+    "description": "Language section description"
+  },
+  "languageAuto": {
+    "message": "자동 (시스템 언어)",
+    "description": "Auto detect language option"
+  },
+  "tagPage": { "message": "페이지" },
+  "tagTab": { "message": "탭" },
+  "tagBookmark": { "message": "북마크" },
+  "tagHistory": { "message": "기록" },
+  "tagLink": { "message": "링크" },
+  "tagHeader": { "message": "제목" },
+  "tagButton": { "message": "버튼" },
+  "tagText": { "message": "텍스트" },
+  "searchMinLength": { "message": "2자 이상 입력하세요" }
+}

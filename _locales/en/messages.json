@@ -1,0 +1,139 @@
+{
+  "extName": {
+    "message": "Quick Search - Spotlight",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Spotlight-style fuzzy search for tabs, bookmarks, and history. Press Ctrl+Shift+K to open.",
+    "description": "Extension description"
+  },
+  "searchPlaceholder": {
+    "message": "Search this page, tabs, bookmarks...",
+    "description": "Search input placeholder"
+  },
+  "navigate": {
+    "message": "Navigate",
+    "description": "Keyboard hint for navigation"
+  },
+  "goTo": {
+    "message": "Go to",
+    "description": "Keyboard hint for go to action"
+  },
+  "close": {
+    "message": "Close",
+    "description": "Keyboard hint for close"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Settings button tooltip"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Loading state text"
+  },
+  "typeToSearch": {
+    "message": "Type to search",
+    "description": "Empty state title"
+  },
+  "searchHint": {
+    "message": "Page Text • Tabs • Bookmarks • History",
+    "description": "Empty state hint"
+  },
+  "noResults": {
+    "message": "No matches found",
+    "description": "No results text"
+  },
+  "searchGoogle": {
+    "message": "Search Google for",
+    "description": "Google search link prefix"
+  },
+  "currentPage": {
+    "message": "Current Page",
+    "description": "Current page type label"
+  },
+  "currentPageDesc": {
+    "message": "Links, headings, and text on current page",
+    "description": "Current page description"
+  },
+  "openTabs": {
+    "message": "Open Tabs",
+    "description": "Open tabs type label"
+  },
+  "openTabsDesc": {
+    "message": "Currently open browser tabs",
+    "description": "Open tabs description"
+  },
+  "bookmarks": {
+    "message": "Bookmarks",
+    "description": "Bookmarks type label"
+  },
+  "bookmarksDesc": {
+    "message": "Your saved bookmarks",
+    "description": "Bookmarks description"
+  },
+  "history": {
+    "message": "History",
+    "description": "History type label"
+  },
+  "historyDesc": {
+    "message": "Recently visited pages",
+    "description": "History description"
+  },
+  "settingsTitle": {
+    "message": "Quick Search Settings",
+    "description": "Settings page title"
+  },
+  "settingsSubtitle": {
+    "message": "Customize your search experience",
+    "description": "Settings page subtitle"
+  },
+  "searchPriority": {
+    "message": "Search Priority",
+    "description": "Priority section title"
+  },
+  "dragToReorder": {
+    "message": "Drag to reorder. Items at the top appear first in search results.",
+    "description": "Priority section description"
+  },
+  "save": {
+    "message": "Save Settings",
+    "description": "Save button text"
+  },
+  "reset": {
+    "message": "Reset to Default",
+    "description": "Reset button text"
+  },
+  "settingsSaved": {
+    "message": "Settings saved!",
+    "description": "Save success toast"
+  },
+  "resetToDefault": {
+    "message": "Reset to default order",
+    "description": "Reset success toast"
+  },
+  "thisSite": {
+    "message": "This site",
+    "description": "Badge for current site items"
+  },
+  "language": {
+    "message": "Language",
+    "description": "Language section title"
+  },
+  "languageDesc": {
+    "message": "Select your preferred display language.",
+    "description": "Language section description"
+  },
+  "languageAuto": {
+    "message": "Auto (System language)",
+    "description": "Auto detect language option"
+  },
+  "tagPage": { "message": "Page" },
+  "tagTab": { "message": "Tab" },
+  "tagBookmark": { "message": "Bookmark" },
+  "tagHistory": { "message": "History" },
+  "tagLink": { "message": "Link" },
+  "tagHeader": { "message": "Heading" },
+  "tagButton": { "message": "Button" },
+  "tagText": { "message": "Text" },
+  "searchMinLength": { "message": "Type at least 2 characters" }
+}
