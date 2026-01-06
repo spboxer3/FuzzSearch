@@ -44,6 +44,34 @@
   let lastUsedLanguage = null; // Track the saved language setting
   let currentI18n = {};
 
+  // ============================================
+  // Keyboard Event Isolation
+  // Block page from intercepting keyboard events when Spotlight is open
+  // ============================================
+  function blockPageKeyboardEvents(e) {
+    // Only block when Spotlight is open and visible
+    if (
+      isOpen &&
+      overlayElement &&
+      !overlayElement.classList.contains("qs-hidden")
+    ) {
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+    }
+  }
+
+  function registerKeyboardBlockers() {
+    document.addEventListener("keydown", blockPageKeyboardEvents, true);
+    document.addEventListener("keyup", blockPageKeyboardEvents, true);
+    document.addEventListener("keypress", blockPageKeyboardEvents, true);
+  }
+
+  function unregisterKeyboardBlockers() {
+    document.removeEventListener("keydown", blockPageKeyboardEvents, true);
+    document.removeEventListener("keyup", blockPageKeyboardEvents, true);
+    document.removeEventListener("keypress", blockPageKeyboardEvents, true);
+  }
+
   // Helper function to get localized messages with manual override support
   async function getLocalizedMessages() {
     try {
@@ -486,6 +514,9 @@
     }
 
     document.body.style.overflow = "hidden";
+
+    // Register keyboard event blockers to prevent page from intercepting keys
+    registerKeyboardBlockers();
   }
 
   function isCurrentSiteUrl(url) {
@@ -509,6 +540,9 @@
     selectedIndex = 0;
 
     document.body.style.overflow = "";
+
+    // Unregister keyboard event blockers
+    unregisterKeyboardBlockers();
   }
 
   // ============================================
@@ -620,6 +654,10 @@
   // Keyboard Navigation
   // ============================================
   function handleKeydown(e) {
+    // Stop event from propagating to prevent page from handling it
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+
     switch (e.key) {
       case "ArrowDown":
         e.preventDefault();
