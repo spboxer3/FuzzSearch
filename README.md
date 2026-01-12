@@ -2,8 +2,7 @@
 
 <h1 align="center">FuzzSearch</h1>
 
-<p align="center">English | [繁體中文](readme_zh-TW.md) | [Privacy Policy](PrivacyPolicy.md)</p>
-# FuzzSearch
+<p align="center">English | <a href="readme_zh-TW.md">繁體中文</a> | <a href="PrivacyPolicy.md">Privacy Policy</a></p>
 
 A macOS Spotlight-style Chrome extension for lightning-fast fuzzy search across tabs, bookmarks, history, and current page content.
 
