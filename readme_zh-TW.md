@@ -1,6 +1,8 @@
-# FuzzSearch
+<p align="center"><img src="icons/icon128.png"></p>
 
-[English](README.md) | 繁體中文 | [隱私權政策](PrivacyPolicy.md)
+<h1 align="center">FuzzSearch</h1>
+
+<p align="center"><a href="readme.md">English</a>  | 繁體中文| <a href="PrivacyPolicy.md">Privacy Policy</a></p>
 
 macOS Spotlight 風格的 Chrome 擴充功能，支援分頁、書籤、歷史記錄和當前頁面內容的模糊搜尋。
 
